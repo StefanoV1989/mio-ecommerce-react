@@ -1,0 +1,42 @@
+.cassa {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 0;
+  
+
+  h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+
+  .cassa-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+
+    .header-block {
+      text-transform: capitalize;
+      width: 23%;
+      text-align: center;
+    }
+  }
+
+  .riepilogo-carrello {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .svuota,
+    .totale {
+      font-size: 36px;
+      
+    }
+  }
+}

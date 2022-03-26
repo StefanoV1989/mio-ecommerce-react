@@ -1,0 +1,14 @@
+.articoli-categoria {
+    margin-top: 50px;
+
+    h2.articoli-categoria {
+        text-transform: uppercase;
+    }
+
+    .lista-articoli {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px 15px;
+        align-content: space-between;
+    }
+}

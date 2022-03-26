@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# private files
+/src/firebase/firebase.config.js
+*.code-workspace

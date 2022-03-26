@@ -1,0 +1,40 @@
+.articolo {
+    height: 350px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    background-size: cover;
+    flex-basis: 18%;
+
+    .add-to-cart {
+        position: absolute;
+        bottom: 30px;
+        left: 25%;
+
+        button {
+            width: auto;
+            height: 52px;
+            line-height: 52px;
+            padding: 0 10px;
+            font-size: 12px;
+            background-color: white;
+            color: black;
+            text-transform: uppercase;
+            font-family: Arial;
+            font-weight: bolder;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            opacity: .7;
+
+            &:hover {
+                background-color: black;
+                color: white;
+                border: 1px solid white;
+            }
+        }
+    }
+}
